@@ -1,0 +1,81 @@
+
+html{
+	background-image: url(https://storage.googleapis.com/production-homestead-v1-0-6/356/203356/PH9pFsHK/0368216413a0400a90403168230ccac4);
+}
+
+
+/*The general styles like elements and stuff*/
+
+body{
+	text-align: center;
+}
+
+h1{
+	font-size: 50px;
+    text-decoration: underline overline;
+    text-decoration-color: darkslategray;
+}
+
+.warning{
+    text-align: center;
+    background-color: aliceblue;
+    color: darkred;
+    padding: none;
+    margin: auto; 
+    border: ridge 5px maroon;
+    max-width: 70%;
+    font: bold 20px monospace;
+}
+
+.warning:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+
+nav a:link, a:visited{
+    text-decoration: none;
+    display: inline-flex;
+    background-color: darkslateblue;
+    color: burlywood;
+    font-weight: bold;
+    font: 20px, helvetica;
+    padding: 5px;
+    border: 5px single navy;
+    border-radius: 5px;
+    
+}
+
+nav a:hover, a:active{
+    text-decoration: none;
+    display: inline-flex;
+    background-color: burlywood; 
+    color: darkslateblue;
+    font-weight: bold;
+    font: 20px, helvetica;
+    padding: 5px;
+    border: 5px single navy;
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+    background-color: #2A1F00;
+    padding: 10px;
+    margin: 0 0 0 0;
+    font-size: 100%;
+    
+}
+
+iframe{
+    border: 20px ridge darkgoldenrod;
+    margin: 15px;
+}
+
+
+/* This is the title section and ultimate gif and warning etc of HOME. */
+
+#Musical-Edition{
+	font-size: 35px;
+    font-family: Broadway, cursive, serif;
+}
+
